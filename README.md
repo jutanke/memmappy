@@ -2,6 +2,11 @@
 Simple helper function to store large amounts of image-like things in numpy memory-mapped files for easy and fast'ish access.
 This library is absolutely not disk space efficient and has very little features as it is geared towards my specific use-cases, use at your own risk.
 
+## Install
+```bash
+pip install git+https://github.com/jutanke/memmappy.git
+```
+
 ## Create memmapped file
 ```python
 import numpy as np
